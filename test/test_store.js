@@ -10,7 +10,7 @@ describe('in memory database', () =>{
 
     it('save', () => {
         let newMovie = { title: 'Moulin Rouge (2001)', director: 'Baz Luhrmann', duration: '2h 7min', genre: 'Drama, Musical, Romance', awards: '2 Oscars' }
-      
+        
         let result = movies.save(newMovie); //result now equals the object "item" generated 
                                             //from the save function is store.js
 
@@ -22,7 +22,10 @@ describe('in memory database', () =>{
 
     it('get', () => {
 
+        // let result = movies.get(id);
 
+        // assert.equal(id)    
+        // console.log(result);
 
     })
 
