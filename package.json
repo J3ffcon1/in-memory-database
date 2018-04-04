@@ -4,12 +4,11 @@
   "description": "Node dependencies for in-memory-database lab",
   "main": "index.js",
   "directories": {
-    "lib": "lib",
-    "test": "mocha",
-    "start": "npm run test -- -w"
+    "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "mocha",
+        "start": "npm run test -- -w"
   },
   "repository": {
     "type": "git",
